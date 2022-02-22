@@ -1,0 +1,134 @@
+html{
+	font-family: 'Inter', sans-serif;
+}
+
+body {
+	color: #393939;
+	min-height: inherit;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 150%;
+}
+
+h2.subheader {
+	font-size: 120%;
+	color: #51A7F9;
+}
+
+p, award {
+	line-height: 165%;
+}
+
+p, award, award-subtitle, ul {
+	max-width: 600px;
+}
+
+award {
+	 font-weight: bold;
+}
+
+
+award-subtitle {
+	max-width: inherit;
+	display: block; 
+	white-space: pre;
+	font-style: oblique;
+	font-size: 90%;
+}
+
+
+ul {
+	line-height: 138%;
+	font-size: 90%;
+	list-style-type: none;
+}
+
+div {
+	display: block;
+	float:left;	
+	display:inline;
+	position: absolute;
+	margin-left:0;
+}
+
+
+.footer {
+	font-size: .1rem;
+	padding: .1%;
+}
+
+#mypic {
+	height: auto;
+	border-radius: 50%;
+	align-content: center;
+	filter: drop-shadow(0px .5px 2px #6f6f6f);
+}
+
+img.pagepic {
+	height: 75%;
+	width: 75%;
+	align-content: center;
+	filter: drop-shadow(1px 1px 2px #6f6f6f);
+}
+
+img.pagepic_art {
+	height: 100%;
+	width: 100%;
+	align-content: center;
+	filter: drop-shadow(1px 1px 2px #6f6f6f);
+}
+
+caption {
+	font-size: 25%;
+}
+
+
+a {
+	transition: color .25s;
+}
+
+a:link {
+	color: #51A7F9;
+}
+
+a:visited {
+	color: #51A7F9;
+}
+
+a:hover {
+	color: #d588ff;
+}
+
+a.nav-link:link {
+	text-decoration: none;
+	font-size: 1.5rem;
+	line-height: 100%;
+	font-weight: bold;
+	color: #393939;
+}
+
+a.nav-link:visited {
+	color: #393939;
+}
+
+a.nav-link:hover {
+	color: #51A7F9;
+}
+
+a.nav-link.active {
+	color: #51A7F9;
+}
+
+/*https://css-tricks.com/overriding-the-default-text-selection-color-with-css/*/
+
+::selection {
+  background: #d5e6f6;
+}
+::-moz-selection {
+  background: #d5e6f6;
+}
